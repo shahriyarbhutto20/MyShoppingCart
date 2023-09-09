@@ -1,0 +1,65 @@
+/* src/index.css */
+@import "bootstrap/dist/css/bootstrap.min.css";
+body {
+  padding: 0;
+  margin: 0;
+}
+/* Card Styling */
+
+.cardDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.descriptioDiv {
+  width: 80%;
+}
+.imgDiv {
+  height: 40vh;
+  width: 100%;
+}
+.imgDiv img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+/* Nav Bar */
+.cartTag {
+  font-weight: bold;
+  color: red;
+}
+.mainDiv {
+  position: relative;
+}
+.navBarDiv {
+  z-index: 1;
+
+  position: sticky;
+  top: 0;
+  width: 100%;
+  box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+/* empty cart div with message */
+
+.emptyCartDiv {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.emptyCartDiv h1 {
+  font-size: 5rem;
+}
+
+/* Loader */
+
+.mainLoaderDiv {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
